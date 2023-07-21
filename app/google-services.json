@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "279964353005",
+    "project_id": "rideon-d6091",
+    "storage_bucket": "rideon-d6091.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279964353005:android:5bb68672e807f549d027e4",
+        "android_client_info": {
+          "package_name": "com.example.rideon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279964353005-pg93i1tg17veq71b4jfunb0ebnuu64ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWX7m14FIt5pIjiVeSKmwb9tqyhfXXvqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279964353005-pg93i1tg17veq71b4jfunb0ebnuu64ks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

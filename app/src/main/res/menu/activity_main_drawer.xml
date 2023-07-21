@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/carpark"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profilecar"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/categorycar"
+            android:title="@string/category" />
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/offercar"
+            android:title="@string/offers" />
+        <item
+            android:id="@+id/nav_new_cars"
+            android:icon="@drawable/newproducts"
+            android:title="@string/newwheels_services"/>
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@drawable/myorder"
+            android:title="@string/my_orders" />
+        <item
+            android:id="@+id/nav_my_carts"
+            android:icon="@drawable/mycart"
+            android:title="@string/my_cart"/>
+    </group>
+</menu>
