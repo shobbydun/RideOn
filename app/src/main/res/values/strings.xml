@@ -22,4 +22,5 @@
     <string name="description">Description</string>
     <string name="my_cart">my_cart</string>
     <string name="newwheels_services">NewWheels/Services</string>
+    <string name="log_out">log_out</string>
 </resources>

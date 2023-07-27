@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -28,6 +30,7 @@ public class RegisterActivity extends AppCompatActivity {
     Button signup;
     EditText name,email,password;
     TextView signin;
+
 
     FirebaseAuth auth;
     FirebaseDatabase database;
@@ -114,4 +117,5 @@ public class RegisterActivity extends AppCompatActivity {
     public void  goToLogin(View view){
         startActivity(new Intent(RegisterActivity.this,LoginActivity.class));
     }
+
 }

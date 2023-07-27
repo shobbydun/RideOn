@@ -37,7 +37,7 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/calligraffittiregular"
+        android:fontFamily="@font/mansalvaregular"
         android:text="ThankYou For Ordering Your Dream Wheel With \n
          RIDEON;
         \n One Wheel is Never Enough,See You Soon"

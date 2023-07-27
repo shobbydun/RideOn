@@ -80,7 +80,7 @@
         android:layout_margin="8dp"
         android:textColor="#EC7D0C"
         android:textSize="30sp"
-        android:fontFamily="@font/calligraffittiregular"
+        android:fontFamily="@font/mansalvaregular"
         android:text="@string/description"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"

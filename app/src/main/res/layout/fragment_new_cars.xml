@@ -1,14 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".NewCarsFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="New Cars" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/black"
+        android:text="CAR SERVICES \n Interior And Exterior Decor"
+        android:textAlignment="center"
+        android:textColor="#050503"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <ViewFlipper
+        android:id="@+id/flipper_new"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="450dp"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_new"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/servi" />
+
+        <ImageView
+            android:id="@+id/image_new1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/servecar" />
+
+        <ImageView
+            android:id="@+id/image_new11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/servmec" />
+
+        <ImageView
+            android:id="@+id/image_new1111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/speaker" />
+
+        <ImageView
+            android:id="@+id/image_new11111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/flame" />
+
+        <ImageView
+            android:id="@+id/image_new111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/speakerssyellow" />
+
+        <ImageView
+            android:id="@+id/image_new1111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/spoiler" />
+        <ImageView
+            android:id="@+id/image_new1211"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/rims" />
+        <ImageView
+            android:id="@+id/image_new1811"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/inte" />
+        <ImageView
+            android:id="@+id/image_new16711"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/interior" />
+
+        <ImageView
+            android:id="@+id/image_new00111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/rimss" />
+        <ImageView
+            android:id="@+id/image_new115671"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/paint" />
+        <ImageView
+            android:id="@+id/image_new16272811"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/tilt" />
+
+
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="406dp"
+        android:background="#F3E80C83"
+        android:text="NEW FRESH WHEEL"
+        android:textColor="#0B0906"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="111dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageView
+            android:id="@+id/rec_img"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/supra" />
+
+        <TextView
+            android:id="@+id/rec_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toyota Supra MK4 2023"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rec_dec"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Ratatata 🔥🔥" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ratingstars" />
+
+            <TextView
+                android:id="@+id/rec_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:text="5.0" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

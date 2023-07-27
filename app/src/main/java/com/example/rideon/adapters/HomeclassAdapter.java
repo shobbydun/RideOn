@@ -15,27 +15,26 @@ import com.bumptech.glide.Glide;
 import com.example.rideon.R;
 import com.example.rideon.activities.ViewAllActivity;
 import com.example.rideon.models.HomeCategory;
+import com.example.rideon.models.HomeclassModel;
 
 import java.util.List;
 
-public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
+public class HomeclassAdapter extends RecyclerView.Adapter<HomeclassAdapter.ViewHolder> {
 
     Context context;
-    List<HomeCategory> categoryList;
-
-    public HomeAdapter(Context context, List<HomeCategory> categoryList) {
+    List<HomeclassModel> categoryList;
+    public HomeclassAdapter(Context context, List<HomeclassModel> categoryList) {
         this.context = context;
         this.categoryList = categoryList;
     }
-
     @NonNull
     @Override
-    public HomeAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new ViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.home_cat_items,parent,false));
+    public HomeclassAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        return new HomeclassAdapter.ViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.home_class_item,parent,false));
     }
 
     @Override
-    public void onBindViewHolder(@NonNull HomeAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull HomeclassAdapter.ViewHolder holder, int position) {
 
         Glide.with(context).load(categoryList.get(position).getImg_url()).into(holder.catImg);
         holder.name.setText(categoryList.get(position).getName());
@@ -61,9 +60,8 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
         TextView name;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-
-            catImg = itemView.findViewById(R.id.home_cat_img);
-            name = itemView.findViewById(R.id.cat_home_name);
+            catImg = itemView.findViewById(R.id.home_class_img);
+            name = itemView.findViewById(R.id.class_home_name);
         }
     }
 }

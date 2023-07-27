@@ -123,7 +123,7 @@ public class MyCartsFragment extends Fragment {
             totalAmount += myCartModel.getTotalPrice();
         }
 
-        GrandTotalAmount.setText("Grand Total Amount: "+ totalAmount);
+        GrandTotalAmount.setText("Grand Total Amount: $"+ totalAmount);
 
     }
 

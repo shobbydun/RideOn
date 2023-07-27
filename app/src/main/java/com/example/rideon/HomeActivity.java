@@ -8,14 +8,20 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.widget.Toolbar;
 
 import com.bumptech.glide.Glide;
+import com.example.rideon.activities.RegisterActivity;
 import com.example.rideon.models.UserModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
@@ -29,6 +35,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class HomeActivity extends AppCompatActivity {
+
 
     FirebaseStorage storage;
     FirebaseAuth auth;
@@ -91,9 +98,32 @@ public class HomeActivity extends AppCompatActivity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater inflater = getMenuInflater();
         getMenuInflater().inflate(R.menu.main,menu);
-        return true;
+        return super.onCreateOptionsMenu(menu);
     }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.log_out:
+                auth.signOut();
+                logout();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+
+    }
+
+    public void logout(){
+        Intent intent = new Intent(HomeActivity.this, RegisterActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        Toast.makeText(this, "See You soon", Toast.LENGTH_SHORT).show();
+        startActivity(intent);
+        finish();
+    }
+
 
     @Override
     public boolean onSupportNavigateUp(){

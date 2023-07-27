@@ -19,10 +19,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.rideon.R;
 import com.example.rideon.adapters.HomeAdapter;
+import com.example.rideon.adapters.HomeclassAdapter;
 import com.example.rideon.adapters.PopularAdapters;
 import com.example.rideon.adapters.RecommendedAdapter;
 import com.example.rideon.adapters.ViewAllAdapter;
 import com.example.rideon.models.HomeCategory;
+import com.example.rideon.models.HomeclassModel;
 import com.example.rideon.models.PopularModel;
 import com.example.rideon.models.RecommendedModel;
 import com.example.rideon.models.ViewAllModel;
@@ -42,7 +44,7 @@ public class HomeFragment extends Fragment {
     ProgressBar progressBar;
 
     Context context;
-    RecyclerView popularRec, homeCatRec, RecommendedRec;
+    RecyclerView popularRec, homeCatRec, RecommendedRec, exploreClass;
     FirebaseFirestore db;
 
     //popular cars
@@ -52,6 +54,12 @@ public class HomeFragment extends Fragment {
     //HomeCategory
     List<HomeCategory> categoryList;
     HomeAdapter homeAdapter;
+
+
+    //classHome
+    List<HomeclassModel> homeclassModels;
+    HomeclassAdapter homeclassAdapter;
+
 
     //Recommended
     List<RecommendedModel> recommendedModelList;
@@ -75,6 +83,7 @@ public class HomeFragment extends Fragment {
         popularRec = root.findViewById(R.id.popular_rec);
         homeCatRec = root.findViewById(R.id.explore_rec);
         RecommendedRec= root.findViewById(R.id.recommended_rec);
+        exploreClass = root.findViewById(R.id.explore_class);
 
         scrollView= root.findViewById(R.id.scroll_view);
         progressBar= root.findViewById(R.id.progressbar);
@@ -128,6 +137,30 @@ public class HomeFragment extends Fragment {
                                 HomeCategory homeCategory = document.toObject(HomeCategory.class);
                                 categoryList.add(homeCategory);
                                 homeAdapter.notifyDataSetChanged();
+                            }
+                        } else {
+                            Toast.makeText(getActivity(), "Error" + task.getException(), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+        //Home class
+        exploreClass.setLayoutManager(new LinearLayoutManager(getActivity(),RecyclerView.HORIZONTAL,false));
+        homeclassModels = new ArrayList<>();
+        homeclassAdapter = new HomeclassAdapter (getActivity(),homeclassModels);
+        exploreClass.setAdapter(homeclassAdapter);
+
+        db.collection("HomeClass")
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if (task.isSuccessful()) {
+                            for (QueryDocumentSnapshot document : task.getResult()) {
+                                HomeclassModel homeclassModel = document.toObject(HomeclassModel.class);
+                                homeclassModels.add(homeclassModel);
+                                homeclassAdapter.notifyDataSetChanged();
                             }
                         } else {
                             Toast.makeText(getActivity(), "Error" + task.getException(), Toast.LENGTH_SHORT).show();

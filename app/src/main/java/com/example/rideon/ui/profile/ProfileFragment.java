@@ -35,8 +35,6 @@ public class ProfileFragment extends Fragment {
 
     CircleImageView profileImg;
     EditText name,email,number,address;
-    Button update;
-
     FirebaseStorage storage;
     FirebaseAuth auth;
     FirebaseDatabase database;
@@ -55,7 +53,6 @@ public class ProfileFragment extends Fragment {
         email = root.findViewById(R.id.profile_email);
         number = root.findViewById(R.id.profile_phone);
         address = root.findViewById(R.id.profile_address);
-        update = root.findViewById(R.id.update_btn);
 
         database.getReference().child("Admin").child(FirebaseAuth.getInstance().getUid())
                         .addListenerForSingleValueEvent(new ValueEventListener() {
@@ -85,20 +82,9 @@ public class ProfileFragment extends Fragment {
             }
         });
 
-        update.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                updateUserProfile();
-            }
-        });
-        
-
         return root;
 
 
-    }
-
-    private void updateUserProfile() {
     }
 
     @Override

@@ -39,7 +39,7 @@
         app:layout_constraintHorizontal_bias="0.328"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.351"
+        app:layout_constraintVertical_bias="0.391"
         app:layout_constraintWidth_percent=".8" />
 
     <EditText
@@ -59,7 +59,7 @@
         app:layout_constraintHorizontal_bias="0.328"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462"
+        app:layout_constraintVertical_bias="0.502"
         app:layout_constraintWidth_percent=".8" />
 
     <EditText
@@ -78,7 +78,7 @@
         app:layout_constraintHorizontal_bias="0.328"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.573"
+        app:layout_constraintVertical_bias="0.613"
         app:layout_constraintWidth_percent=".8" />
 
     <EditText
@@ -98,7 +98,7 @@
         app:layout_constraintHorizontal_bias="0.328"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.684"
+        app:layout_constraintVertical_bias="0.724"
         app:layout_constraintWidth_percent=".8" />
 
     <Button
@@ -114,7 +114,7 @@
         app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.795" />
+        app:layout_constraintVertical_bias="0.835" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

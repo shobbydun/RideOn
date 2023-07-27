@@ -10,13 +10,15 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/drawable/my_cart_item.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/drawable/side_nav_bar.xml" value="0.2595" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/drawable/textview.xml" value="0.201" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/drawable/yellow_white.xml" value="0.238" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_detailed.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_nav_category.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_new_cars.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_offers.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_place_oder.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_place_oder.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_recommended.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/activity_view_all.xml" value="0.1" />
@@ -25,21 +27,24 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/content_main.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/fragment_category.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/fragment_gallery.xml" value="0.25052083333333336" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/fragment_my_carts.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/fragment_my_orders.xml" value="0.25052083333333336" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/fragment_new_cars.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/fragment_new_cars.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/fragment_offer.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/home_cat_items.xml" value="0.6" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/home_class_item.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/my_cart_item.xml" value="0.4" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/nav_cat_item.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/nav_category_detailed_item.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/nav_header_main.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/new_cars_item.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/offers_item.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/popular_item.xml" value="0.3409090909090909" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/recommended_item.xml" value="0.4" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/testing.xml" value="0.253125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/view_all_cat_item.xml" value="0.253125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/layout/view_all_item.xml" value="0.4" />
         <entry key="..\:/Users/user/AndroidStudioProjects/RideOn/app/src/main/res/menu/activity_main_drawer.xml" value="0.264" />

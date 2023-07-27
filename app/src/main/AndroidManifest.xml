@@ -16,6 +16,9 @@
         android:theme="@style/Theme.RideOn"
         tools:targetApi="31">
         <activity
+            android:name=".newCarsActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.offersActivity"
             android:exported="false" />
         <activity

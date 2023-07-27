@@ -12,5 +12,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:itemTextAppearance">@style/ChangeTextColor</item>
+    </style>
+
+    <style name="ChangeTextColor" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textSize">20dp</item>
+
     </style>
 </resources>
