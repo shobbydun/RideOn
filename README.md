@@ -2,7 +2,7 @@
 The perfect app for shopping for your desired cars adding them to your cart and ordering them.
 Firebase database, authentication, and storage
 
-#using
+# using
 register or login to the Home Page
 Here you will find section of cars ie: search bar,recommended,popular,categories,classes
 This is a car shopping app thus on viewing the cars, click the desired car to get its details
