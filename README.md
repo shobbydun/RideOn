@@ -35,17 +35,17 @@ Alternatively, to install the app via APK, enable 'Unknown Sources' on your devi
 For any issues, ensure proper configuration and refer to the official Android Studio documentation.
 
 # Screenshots
+![photo1719219488 (1)](https://github.com/shobbydun/RideOn/assets/87327873/604a00ed-3db8-4f34-b670-ad4548127b76)
+![photo1719219488 (2)](https://github.com/shobbydun/RideOn/assets/87327873/a820f311-6989-4ca0-9d9e-c5d68ac0382f)
+![photo1719219488 (3)](https://github.com/shobbydun/RideOn/assets/87327873/2dc22505-9deb-4f71-a782-74b451fd8297)
+![photo1719219489 (4)](https://github.com/shobbydun/RideOn/assets/87327873/af222339-2ba5-4291-a20b-ee3938646aaa)
 ![photo1719219488 (6)](https://github.com/shobbydun/RideOn/assets/87327873/32dfc6f9-53e6-4adc-90ab-d6b687510726)
 ![photo1719219488 (5)](https://github.com/shobbydun/RideOn/assets/87327873/547e5001-2a47-41b6-9753-7ff84dfc86b9)
-![photo1719219488 (3)](https://github.com/shobbydun/RideOn/assets/87327873/2dc22505-9deb-4f71-a782-74b451fd8297)
-![photo1719219488 (2)](https://github.com/shobbydun/RideOn/assets/87327873/a820f311-6989-4ca0-9d9e-c5d68ac0382f)
-![photo1719219488 (1)](https://github.com/shobbydun/RideOn/assets/87327873/604a00ed-3db8-4f34-b670-ad4548127b76)
 ![photo1719219488](https://github.com/shobbydun/RideOn/assets/87327873/4bc40d41-13b0-42ab-96d7-1e25da0856a2)
 ![photo1719219489 (8)](https://github.com/shobbydun/RideOn/assets/87327873/53243732-79d9-4f01-a4c2-b8c45b055268)
 ![photo1719219489 (7)](https://github.com/shobbydun/RideOn/assets/87327873/513de882-bdf0-4c63-80e9-1f0243fbd4e4)
 ![photo1719219489 (6)](https://github.com/shobbydun/RideOn/assets/87327873/fd8f633b-84b4-4b42-a965-d2b0f91c8bab)
 ![photo1719219489 (5)](https://github.com/shobbydun/RideOn/assets/87327873/750b81cf-c26f-4462-be60-92c2b8984e57)
-![photo1719219489 (4)](https://github.com/shobbydun/RideOn/assets/87327873/af222339-2ba5-4291-a20b-ee3938646aaa)
 ![photo1719219489 (3)](https://github.com/shobbydun/RideOn/assets/87327873/22bcb863-5d6c-4773-b21e-29d73794d394)
 ![photo1719219489 (2)](https://github.com/shobbydun/RideOn/assets/87327873/5eadaefe-d0f6-4df4-ae4d-244f23ba36bb)
 ![photo1719219489 (1)](https://github.com/shobbydun/RideOn/assets/87327873/fcdb0819-cbf1-4328-b31e-bb8a00930d66)
